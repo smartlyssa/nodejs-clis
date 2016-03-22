@@ -5,8 +5,6 @@ require('./helper')
 let fs = require('fs').promise
 
 function* echo() {
-    // Use 'yield' in here
-    // Your implementation here
     process.stdout.write(process.argv[2]+'\n')
 }
 

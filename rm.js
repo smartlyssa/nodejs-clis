@@ -12,3 +12,5 @@ function* rm() {
 }
 
 module.exports = rm
+
+// TODO: Use your recursive ls.js implementation and fs.unlink to delete files first, then delete all the directories.
